@@ -13,7 +13,7 @@ class SearchBar extends React.Component {
         this.props.onFormSubmit(this.state.term);
     }
     render () {
-        return (
+        return (    
             <div className="ui segment">
                 <form className="ui form" onSubmit={this.onSubmit}>
                     <div className="field">
